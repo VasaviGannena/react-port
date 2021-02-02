@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>React-app</h1>
-      <h2>Vasavi</h2>
+      <Navbar/>
     </div>
   );
 }

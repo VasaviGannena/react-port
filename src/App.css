@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 .App {
   text-align: center;
 }
@@ -12,9 +13,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-body {
-  background-color: #282c34;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,4 +36,39 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0);
+}
+/**Body**/
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+/***Navabr***/
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-left: 0.75rem;
+  border-top:  0.1875rem solid var(--primary-dark);
+}
+.navar-brand {
+  max-width: 17.25rem;
+  padding: 0% !important;
+  height: 6rem !important;
+}
+.navabar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li > a:hover{
+    border-top: 0.1875rem solid var(--primary-orange);
 }
