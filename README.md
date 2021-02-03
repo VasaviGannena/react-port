@@ -6,9 +6,9 @@
 --create github repo in your GITHUB account
 ** Now install Githubpages***
 --npm install gh-pages
--- **Go to your package.json and check whether githubpages are install or devDependencies
--- ** do Changes in package.json files
-   -- "homepage": "http://[ your Github username ].git.io/[name your github repo]
+#-- **Go to your package.json and check whether githubpages are install or devDependencies
+#-- ** do Changes in package.json files
+  # -- "homepage": "http://[ your Github username ].git.io/[name your github repo]
        Example: "homepage": "http://VasaviGannena.git.io/react-port
     -- **Add  to line to Script in package.json
        "script" : {
@@ -16,9 +16,9 @@
        "deploy": "gh-pages -d build",
        ......
        }
-  --Go to react-project in your local machince and open your terminal and type
-  **git init**
-  **git remote add origin [your github repo of react-project] https://github.com/VasaviGannena/react-port.git
+ # --Go to react-project in your local machince and open your terminal and type
+ # **git init**
+ # **git remote add origin [your github repo of react-project] https://github.com/VasaviGannena/react-port.git
   **Now do changes in react-project what do you want to build**
   --Here I am build my react-app portfolio
   ** Now save file in github **
