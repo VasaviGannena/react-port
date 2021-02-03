@@ -1,11 +1,11 @@
 #Github Pages:
---create react-app
---npm init react-app [name of react-project] in your local machine
--- cd [your react-project] in your local machine
--- check your react-app by using command "npm start"
---create github repo in your GITHUB account
-** Now install Githubpages***
---npm install gh-pages
+#--create react-app
+#--npm init react-app [name of react-project] in your local machine
+#-- cd [your react-project] in your local machine
+#-- check your react-app by using command "npm start"
+#--create github repo in your GITHUB account
+#** Now install Githubpages***
+#--npm install gh-pages
 #-- **Go to your package.json and check whether githubpages are install or devDependencies
 #-- ** do Changes in package.json files
   # -- "homepage": "http://[ your Github username ].git.io/[name your github repo]
