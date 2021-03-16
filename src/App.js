@@ -3,6 +3,7 @@
   import Navbar from "./Components/Navbar";
   import Header from "./Components/Header";
   import Particles from "react-particles-js";
+  import AboutMe from "./Components/AboutMe";
 
   function App() {
     return (
@@ -32,6 +33,7 @@
     }} />
         <Navbar/>
         <Header/>
+        <AboutMe/>
         </>
       </div>
     );
