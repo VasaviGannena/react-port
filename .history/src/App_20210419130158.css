@@ -185,9 +185,6 @@ aspect-ratio: auto 428 / 285;
 }
 
 /*** Experience--- ****/
-.experience{
-  padding: 0.7rem;
-}
 .experience-wrapper{
   position: relative;
   padding: 3.125rem 0;
@@ -244,21 +241,7 @@ clear: both;
 }
 /*** Media ***/
 @media(max-width:768px){
-
-  .container .experience{
-    padding-left: 0;
-  }
   .experience-wrapper::before{
     left: 0.5rem;
-    margin-top: 1.875rem;
-  }
-  .timeline-block-right{
-    float: none;
-    width: 100%;
-  }
-  .timeline-block-left{
-    float: none;
-    direction: Itr;
-    width: 100%;
   }
 }

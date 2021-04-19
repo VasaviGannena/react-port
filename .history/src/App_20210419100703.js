@@ -2,10 +2,10 @@
   import "bootstrap/dist/css/bootstrap.min.css";
   import Navbar from "./Components/Navbar";
   import Header from "./Components/Header";
-import Particles from "react-particles-js";
+  import Particles from "react-particles-js";
 import AboutMe from "./Components/AboutMe";
-import Experience from "./Components/Experience";
   
+import Services from "./Components/Services/Services.js";
   
 
   function App() {
@@ -37,8 +37,7 @@ import Experience from "./Components/Experience";
         <Navbar/>
         <Header/>
           <AboutMe />
-          <Experience/>
-         
+          <Services/>
         </>
       </div>
     );

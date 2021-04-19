@@ -37,7 +37,6 @@ import Experience from "./Components/Experience";
         <Navbar/>
         <Header/>
           <AboutMe />
-          <Experience/>
          
         </>
       </div>

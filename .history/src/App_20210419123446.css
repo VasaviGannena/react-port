@@ -185,11 +185,8 @@ aspect-ratio: auto 428 / 285;
 }
 
 /*** Experience--- ****/
-.experience{
-  padding: 0.7rem;
-}
 .experience-wrapper{
-  position: relative;
+  position: absolute;
   padding: 3.125rem 0;
   overflow: hidden; 
 }
@@ -236,29 +233,9 @@ clear: both;
   color: var(--primary-dark-grey);
   direction: ltr;
 }
-.timeline-content h3{
+.timeline-content{
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
 
-}
-/*** Media ***/
-@media(max-width:768px){
-
-  .container .experience{
-    padding-left: 0;
-  }
-  .experience-wrapper::before{
-    left: 0.5rem;
-    margin-top: 1.875rem;
-  }
-  .timeline-block-right{
-    float: none;
-    width: 100%;
-  }
-  .timeline-block-left{
-    float: none;
-    direction: Itr;
-    width: 100%;
-  }
 }
